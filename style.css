@@ -1,0 +1,188 @@
+/*
+* {
+  box-sizing: border-box;
+}
+*/
+
+
+.item {
+
+  margin: 0;
+  padding: 0;
+  height: auto;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto;
+  padding-top: auto;
+  background: #FFFFFF;
+  text-align: center;
+  color: #00EDFF;
+  font-size: 3em;
+  font-family:Sans-serif;
+  font-size:2em
+}
+
+
+.st3{
+	fill:none; stroke:#2F7DE1;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;
+	stroke-dasharray: 50;
+	stroke-dashoffset: 50;
+	animation: dash .5s 	linear forwards;
+	animation-delay: .5s;
+	animation-timing-function: ease-in-out;
+}
+
+
+.st4{
+	fill:none; stroke:#2F7DE1;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;
+	stroke-dasharray: 40;
+	stroke-dashoffset: 40;
+	animation: dash .5s linear forwards;
+	animation-delay: .5s;
+	animation-timing-function: ease-in-out;
+	opacity: 100%;
+}
+
+@keyframes dash {
+  to { stroke-dashoffset: 0;
+	opacity: 0%;
+	}
+}
+
+.box{
+  animation: appear 1s linear forwards;
+  animation-delay: 1s;
+	animation-timing-function: ease-in-out;
+	opacity: 0%;
+}
+
+@keyframes appear {
+  to {
+	opacity: 100%;
+	}
+}
+
+.box span {
+	width: 20px;
+	height: 20px;
+  display: block;
+	border-right: 2px solid #9ACAEB;
+	border-bottom: 2px solid #9ACAEB;
+	transform: rotate(45deg);
+	margin: -10px;
+	animation: animate 2s infinite;
+}
+
+.box span:nth-child(2) {
+	animation-delay: -0.2s;
+}
+
+.box span:nth-child(3) {
+	animation-delay: -0.4s;
+}
+
+@keyframes animate {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+		transform: rotate(45deg) translate(10px, 10px);
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+.werds{
+  text-align: left;
+  width: 75%;
+}
+
+h1{
+font-size: 150%;
+}
+
+#adj{
+  font-size: 60%;
+  color: #00ffb6;
+}
+
+.header{
+  width: 30%;
+  align-content: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h3{
+	font-size: 90%;
+	color: #00FFB7;
+}
+
+h4{
+	font-size: 90%;
+	color: #00FFB7;
+}
+
+.headshots {
+	max-width: 60%;
+	height: auto;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 30px;
+  text-align: center;
+}
+
+.column2 {
+  float: left;
+  width: 50%;
+  padding: 30px;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+.column2 {
+    width: 100%;
+  }
+}
+
+.meeple{
+	font-size: 80%;
+	padding: 0px 15px 0px 15px;
+		
+}
+
+.meeple2{
+	font-size: 70%;
+	padding: 0px 50px 0px 50px;
+		
+}
+
+.gifs{
+	width: 50%;
+}
+
+form {
+	font-size: 60%;
+}
