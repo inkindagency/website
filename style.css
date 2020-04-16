@@ -4,9 +4,6 @@
 }
 */
 
-body {
-	background: #f8f8ff;
-}
 
 
 .item {
@@ -14,14 +11,12 @@ body {
   margin: 0;
   padding: 0;
   height: auto;
-  background: #f8f8ff;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: 50px auto;
   padding-top: auto;
-  background: #f8f8ff;
   text-align: center;
   color: #00EDFF;
   font-size: 3em;
