@@ -185,3 +185,9 @@ h4{
 form {
 	font-size: 60%;
 }
+
+#mc_embed_signup{
+	text-align:left;
+	width: 80%;
+	font-size: 120%;
+}
