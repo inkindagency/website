@@ -34,6 +34,32 @@
 	animation-timing-function: ease-in-out;
 }
 
+.item {
+
+  margin: 0;
+  padding: 0;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto;
+  padding-top: auto;
+  text-align: center;
+  color: #00EDFF;
+  font-size: 3em;
+	width: 70%;
+  font-family:Sans-serif;
+  font-size:2em
+}
+
+
+.st3{
+	fill:none; stroke:#2F7DE1;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;
+	stroke-dasharray: 50;
+	stroke-dashoffset: 50;
+	animation: dash .5s 	linear forwards;
+	animation-delay: .5s;
+	animation-timing-function: ease-in-out;
+}
 
 .st4{
 	fill:none; stroke:#2F7DE1;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;
