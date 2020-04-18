@@ -34,6 +34,10 @@
 	animation-timing-function: ease-in-out;
 }
 
+#boolin{
+	justify-content: center;
+}
+
 .item2 {
 
   margin: 0;
@@ -212,7 +216,6 @@ form {
 }
 
 #mc_embed_signup{
-	text-align:left;
-	width: 80%;
 	font-size: 120%;
+	text-align: left;
 }
