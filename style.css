@@ -37,8 +37,8 @@
 #boolin{
 	text-align: center;
 	width: 80%;
-	padding-left: 80px;
-	padding-right: 80px;
+	padding-left: 15%;
+	padding-right: 15%;
 }
 
 .item2 {
@@ -51,9 +51,8 @@
   padding-top: auto;
   text-align: center;
   color: #00EDFF;
-  font-size: 3em;
   font-family:Sans-serif;
-  font-size:2em
+  font-size:1em
 }
 
 
